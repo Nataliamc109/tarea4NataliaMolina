@@ -57,6 +57,11 @@ public class Mascota {
     public void setColor(String color) {
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return "Mascota{" + "nombre=" + nombre + ", edad=" + edad + ", raza=" + raza + ", color=" + color + '}';
+    }
     
     
 }
