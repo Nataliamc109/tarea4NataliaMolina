@@ -15,5 +15,15 @@ public class Mascota {
     private int edad;
     private String raza;
     private String color;
-    
+
+    public Mascota(String nombre, int edad, String raza, String color) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.raza = raza;
+        this.color = color;
+    }
+
+    public Mascota() {
+    }
+        
 }
